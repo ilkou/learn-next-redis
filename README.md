@@ -6,6 +6,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 - [link 2](https://redis.info/fireship200)
 
+then set the credentials as an env variable in `.env.local`
+
+```yaml
+REDIS_URL=redis://default:PASSWORD@HOST:PORT
+```
+
 ## Getting Started
 
 First, run the development server:
